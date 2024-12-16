@@ -9,3 +9,9 @@ This dataset includes 5,455 annotated X-ray images in YOLOv8 format, divided int
     <img width="800" src="/asset/YOLO.png" alt="Material Bread logo">
     <p style="text-align: center;">Fig1: few random images visualization within their realive ground-truth ,Created by author.</p>   
 </div>
+
+## Exploration
+ in the EDA_Detection.ipythons extract two important info from as well as performing k-means clustering on bounding box size
+ - the ratio of height and width for each subset(train,validation and test)
+ - the diagonal distribution for bbx in all subset
+ - KMeans Clustering on Bounding Box Sizes (Width, Height)
