@@ -32,15 +32,6 @@ The Exploratory Data Analysis (EDA) was conducted in the EDA_Detection.ipynb not
         Clustering reveals dominant size groups or outliers within the dataset.
         Insights:Guides anchor box generation, which is critical for optimizing object detection models.
 
-## yaml  
 
-- train: ./dataset/train/images
-
-- val: ./dataset/valid/images
-
-- test: ./dataset/test/images
-
-- nc: 2
-- names: ['No_fracture', 'Fracture']
 
 
