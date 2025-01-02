@@ -11,6 +11,13 @@ This dataset includes 5,455 annotated X-ray images in YOLO format, divided into 
 </div>
 
 
+## Requirements
+
+    Linux (Ubuntu)
+    Python = 3.12
+    Pytorch = 2.3
+    NVIDIA GPU + CUDA CuDNN
+
 ## Exploration
 
 The Exploratory Data Analysis (EDA) was conducted in the EDA_Detection.ipynb notebook to gain insights into the dataset and its bounding box properties. The following key analyses were performed:
