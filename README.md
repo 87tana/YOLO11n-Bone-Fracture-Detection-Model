@@ -18,6 +18,36 @@ This dataset includes 5,455 annotated X-ray images in YOLO format, divided into 
     Pytorch = 2.3
     NVIDIA GPU + CUDA CuDNN
 
+## Roboflow_dataset
+    └── data
+         ├── images
+         │    ├── train
+         │    │    ├── train_img1.jpg
+         │    │    ├── train_img2.jpg
+         │    │    └── ...
+         │    ├── val
+         │    │    ├── val_img1.png
+         │    │    ├── val_img2.png
+         │    │    └── ...
+         │    └── test
+         │         ├── test_img1.png
+         │         ├── test_img2.png
+         │         └── ...
+         └── labels
+              ├── train
+              │    ├── train_annotation1.txt
+              │    ├── train_annotation2.txt
+              │    └── ...
+              ├── val
+              │    ├── val_annotation1.txt
+              │    ├── val_annotation2.txt
+              │    └── ...
+              └── test
+                   ├── test_annotation1.txt
+                   ├── test_annotation2.txt
+                   └── ...
+
+
 ## Exploration
 
 The Exploratory Data Analysis (EDA) was conducted in the EDA_Detection.ipynb notebook to gain insights into the dataset and its bounding box properties. The following key analyses were performed:
