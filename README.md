@@ -26,12 +26,12 @@ This dataset includes 5,455 annotated X-ray images in YOLO format, divided into 
          │    │    ├── train_img2.jpg
          │    │    └── ...
          │    ├── val
-         │    │    ├── val_img1.png
-         │    │    ├── val_img2.png
+         │    │    ├── val_img1.jpg
+         │    │    ├── val_img2.jpg
          │    │    └── ...
          │    └── test
-         │         ├── test_img1.png
-         │         ├── test_img2.png
+         │         ├── test_img1.jpg
+         │         ├── test_img2.jpg
          │         └── ...
          └── labels
               ├── train
