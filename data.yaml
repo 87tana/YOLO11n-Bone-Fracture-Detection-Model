@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['negative', 'positive']
+
+roboflow:
+  workspace: fraction-detection
+  project: fraction-detection
+  version: 12
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/fraction-detection/fraction-detection/dataset/12
