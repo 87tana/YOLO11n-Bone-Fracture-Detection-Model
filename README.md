@@ -47,6 +47,7 @@ This dataset includes 5,455 annotated X-ray images in YOLO format, divided into 
                    ├── test_annotation2.txt
                    └── ...
 
+## Methodology
 
 ## Exploration
 
