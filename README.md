@@ -49,26 +49,7 @@ This dataset includes 5,455 annotated X-ray images in YOLO format, divided into 
 
 ## Methodology
 
-## Exploration
 
-The Exploratory Data Analysis (EDA) was conducted in the EDA_Detection.ipynb notebook to gain insights into the dataset and its bounding box properties. The following key analyses were performed:
-
-- Ratio of Height to Width:
-        The height-to-width ratio of bounding boxes was calculated for each dataset subset (training, validation, and test).
-        Insights:
-            Helps identify any significant differences in bounding box aspect ratios across subsets.
-            Useful for understanding image variability and potential challenges for model performance.
-
-- Diagonal Distribution of Bounding Boxes:
-        The diagonal length of each bounding box was computed across all subsets.
-        Insights:
-            Helps assess the range of bounding box sizes present in the dataset.
-            A key indicator of object size variability, which impacts the model's ability to generalize.
-
-- K-Means Clustering on Bounding Box Sizes (Width, Height):
-        K-means clustering was applied to analyze patterns in bounding box sizes.
-        Clustering reveals dominant size groups or outliers within the dataset.
-        Insights:Guides anchor box generation, which is critical for optimizing object detection models.
 
 
 
