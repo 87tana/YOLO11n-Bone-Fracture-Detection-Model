@@ -10,6 +10,12 @@ app = FastAPI()
 # Load YOLO model globally (to avoid loading it on every request)
 model = YOLO("yolov11n_best.pt")
 
+# Root route to handle requests to "/"
+@app.get("/")
+async def root():
+    return {"message": "Welcome to the YOLO Object Detection API"}
+
+# Object detection route
 @app.post("/detect/")
 async def detect_objects(file: UploadFile = File(...), conf_threshold: float = Form(...)):
     try:
@@ -19,7 +25,7 @@ async def detect_objects(file: UploadFile = File(...), conf_threshold: float = F
         image_np = np.array(image)
 
         # Apply YOLO to the image
-        results = model.predict(image_np, conf=conf_threshold, augment=True, )
+        results = model.predict(image_np, conf=conf_threshold, augment=True)
 
         # Annotate the image with bounding boxes
         annotated_image = results[0].plot()
@@ -34,4 +40,5 @@ async def detect_objects(file: UploadFile = File(...), conf_threshold: float = F
 
     except Exception as e:
         return JSONResponse(content={"error": str(e)}, status_code=500)
+
 
