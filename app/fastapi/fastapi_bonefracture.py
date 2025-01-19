@@ -11,9 +11,9 @@ app = FastAPI()
 model = YOLO("yolov11n_best.pt")
 
 # Root route to handle requests to "/"
-@app.get("/")
-async def root():
-    return {"message": "Welcome to the YOLO Object Detection API"}
+#@app.get("/")
+#async def root():
+ #   return {"message": "Welcome to the YOLO Object Detection API"}
 
 # Object detection route
 @app.post("/detect/")

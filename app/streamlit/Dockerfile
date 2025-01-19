@@ -2,10 +2,10 @@
 FROM python:3.10-slim
 
 # Set working directory
-WORKDIR /frontend
+WORKDIR /app
 
 # Copy the frontend code
-COPY ./frontend /frontend
+COPY . /app
 
 # Install dependencies
 RUN pip install -r requirements.txt
@@ -14,5 +14,5 @@ RUN pip install -r requirements.txt
 EXPOSE 8501
 
 # Command to run Streamlit
-CMD ["streamlit", "run", "streamlit_bonefracture.py", "--server.port", "8501", "--server.address", "0.0.0.0"]
-
+ENTRYPOINT ["streamlit", "run"]
+CMD ["streamlit_bonefracture.py"]

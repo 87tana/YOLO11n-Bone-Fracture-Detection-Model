@@ -1,0 +1,32 @@
+version: "3.7"
+
+services:
+  frontend:
+    build: streamlit
+    ports:
+      - 8501:8501
+    networks: 
+      app_network: 
+        aliases: 
+          - frontend.docker
+    depends_on:
+      - backend
+    volumes:
+      - ./streamlit:/app
+
+  backend:
+    build: fastapi
+    ports:
+      - 8000:8000
+    networks: 
+      app_network: 
+        aliases: 
+          - backend.docker
+    volumes:
+      - ./fastapi:/app
+
+networks:
+  app_network:
+    driver: bridge
+
+

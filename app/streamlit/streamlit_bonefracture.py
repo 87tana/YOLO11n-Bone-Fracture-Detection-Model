@@ -4,7 +4,8 @@ from PIL import Image
 import io
 
 # Backend URL
-BACKEND_URL = "http://127.0.0.1:8000/detect/"
+#BACKEND_URL = "http://127.0.0.1:8000/detect/"
+BACKEND_URL = "http://backend.docker:8000/detect/" # use for local (docker) deployment
 
 def main():
     st.title("YOLO Fracture Detection App")
