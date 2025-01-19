@@ -9,7 +9,7 @@
         style="border: 2px solid #000;"
     />
     <p style="text-align: center;">
-        Fig1: Figure 1. Demonstration of the developed application, Created by author.
+        Figure 1: Demonstration of the developed application, Created by author.
         <br>
         View the 
         <strong>
@@ -78,9 +78,5 @@ Format: Images (JPEG) and corresponding annotations (YOLO)
                    └── ...
 
 ## Methodology
-
-
-![Demo](https://private-user-images.githubusercontent.com/112851112/404653195-bc685ed7-2d9d-438a-8f84-f72b504b486b.webm?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzcyNzkzMjIsIm5iZiI6MTczNzI3OTAyMiwicGF0aCI6Ii8xMTI4NTExMTIvNDA0NjUzMTk1LWJjNjg1ZWQ3LTJkOWQtNDM4YS04Zjg0LWY3MmI1MDRiNDg2Yi53ZWJtP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDExOSUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTAxMTlUMDkzMDIyWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9NzhkZDY5YjUxNjA3YTdiM2VjNzE3MWQzMDEyMzJkYjZlMTYwMDU1ZjMwOWYyMmFkNzE4ZjViYjM3YjM4Y2FlOSZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.bCBJb8KaucIu_8Tu_7Xkrr2xv5xgmIuUA8L9bqupXJY)
-
 
 
