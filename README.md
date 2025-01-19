@@ -15,8 +15,8 @@
         <strong>
             <a 
                href="https://private-user-images.githubusercontent.com/112851112/404653195-bc685ed7-2d9d-438a-8f84-f72b504b486b.webm?jwt=eyJhbGciOi..." 
-               onclick="window.open('https://private-user-images.githubusercontent.com/112851112/404653195-bc685ed7-2d9d-438a-8f84-f72b504b486b.webm?jwt=eyJhbGciOi...', 'demoVideoWindow', 'width=800,height=600'); return false;">
-               demo video
+               onclick="window.open('https://private-user-images.githubusercontent.com/112851112/404653195-bc685ed7-2d9d-438a-8f84-f72b504b486b.webm?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzcyNzkzMjIsIm5iZiI6MTczNzI3OTAyMiwicGF0aCI6Ii8xMTI4NTExMTIvNDA0NjUzMTk1LWJjNjg1ZWQ3LTJkOWQtNDM4YS04Zjg0LWY3MmI1MDRiNDg2Yi53ZWJtP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDExOSUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTAxMTlUMDkzMDIyWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9NzhkZDY5YjUxNjA3YTdiM2VjNzE3MWQzMDEyMzJkYjZlMTYwMDU1ZjMwOWYyMmFkNzE4ZjViYjM3YjM4Y2FlOSZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.bCBJb8KaucIu_8Tu_7Xkrr2xv5xgmIuUA8L9bqupXJY', 'demoVideoWindow', 'width=800,height=600'); return false;">
+               Demo Video
             </a>
         </strong>.
     </p>
