@@ -9,7 +9,7 @@
         style="border: 2px solid #000;"
     />
     <p style="text-align: center;">
-        Figure 1: Demonstration of the developed application, Created by author.
+        **Figure 1:** Demonstration of the developed application, Created by author.
         <br>
         View the 
         <strong>
@@ -37,7 +37,7 @@ Format: Images (JPEG) and corresponding annotations (YOLO)
 
 <div align="center">
     <img width="800" src="/asset/YOLO.png" alt="Material Bread logo">
-    <p style="text-align: center;">Fig1: few random images visualization within their realive ground-truth ,Created by author.</p>   
+    <p style="text-align: center;">**Figure 2:** Sample images with overlaid ground-truth bounding boxes.,Created by author.</p>   
 </div>
 
 
