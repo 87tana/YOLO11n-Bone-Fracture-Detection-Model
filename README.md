@@ -6,13 +6,19 @@
         width="600" 
         src="/asset/demo_pic.png" 
         alt="Material Bread logo" 
-        style="border: 2px solid #000;" 
+        style="border: 2px solid #000;"
     />
     <p style="text-align: center;">
         Fig1: Figure 1. Demonstration of the developed application, Created by author.
         <br>
-        View the <strong><a href="https://private-user-images.githubusercontent.com/112851112/404653195-bc685ed7-2d9d-438a-8f84-f72b504b486b.webm?jwt=eyJhbGci..." 
-           target="_blank" rel="noopener noreferrer">demo video</a></strong>.
+        View the 
+        <strong>
+            <a 
+               href="https://private-user-images.githubusercontent.com/112851112/404653195-bc685ed7-2d9d-438a-8f84-f72b504b486b.webm?jwt=eyJhbGciOi..." 
+               onclick="window.open('https://private-user-images.githubusercontent.com/112851112/404653195-bc685ed7-2d9d-438a-8f84-f72b504b486b.webm?jwt=eyJhbGciOi...', 'demoVideoWindow', 'width=800,height=600'); return false;">
+               demo video
+            </a>
+        </strong>.
     </p>
 </div>
 
