@@ -41,6 +41,13 @@ Format: Images (JPEG) and corresponding annotations (YOLO)
 </div>
 
 
+## Directory Structure
+
+- **`app/`**: Contains the `.github/workflows/ci.yml` CI file, along with the Streamlit and FastAPI applications.
+- **`src/`**: Houses all the Modeling and EDA code.
+
+
+
 ## Requirements
 
     Linux (Ubuntu)
