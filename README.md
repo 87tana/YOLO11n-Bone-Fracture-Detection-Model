@@ -10,14 +10,7 @@
     />
     <p style="text-align: center;">
         Figure 1: Demonstration of the developed application, Created by author.
-        <br>
-        View the 
-        <strong>
-            <a 
-                
-                Demo Video
-            </a>
-        </strong>.
+        
     </p>
 </div>
 
