@@ -14,14 +14,13 @@
         View the 
         <strong>
             <a 
-               href="https://private-user-images.githubusercontent.com/112851112/404653195-bc685ed7-2d9d-438a-8f84-f72b504b486b.webm?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mzc3NTE2MjksIm5iZiI6MTczNzc1MTMyOSwicGF0aCI6Ii8xMTI4NTExMTIvNDA0NjUzMTk1LWJjNjg1ZWQ3LTJkOWQtNDM4YS04Zjg0LWY3MmI1MDRiNDg2Yi53ZWJtP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDEyNCUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTAxMjRUMjA0MjA5WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9M2JmNjg1MGY2ZTY5MjgwMWNiMmU3MDZkMWJmMTYxNDRjZjgwNjY4NmEwN2ViM2IxZmEwZDk5YWEyZDQ3ZmViOSZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.3CWvTzGLxZGbb0atWEHq_kgDX2y-fdurVRu8MHjf0Aw" 
-               onclick="window.open('https://private-user-images.githubusercontent.com/112851112/404653195-bc685ed7-2d9d-438a-8f84-f72b504b486b.webm?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mzc3NTE2MjksIm5iZiI6MTczNzc1MTMyOSwicGF0aCI6Ii8xMTI4NTExMTIvNDA0NjUzMTk1LWJjNjg1ZWQ3LTJkOWQtNDM4YS04Zjg0LWY3MmI1MDRiNDg2Yi53ZWJtP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDEyNCUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTAxMjRUMjA0MjA5WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9M2JmNjg1MGY2ZTY5MjgwMWNiMmU3MDZkMWJmMTYxNDRjZjgwNjY4NmEwN2ViM2IxZmEwZDk5YWEyZDQ3ZmViOSZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.3CWvTzGLxZGbb0atWEHq_kgDX2y-fdurVRu8MHjf0Aw', 'demoVideoWindow', 'width=800,height=600'); return false;">
-               Demo Video
+                [demo_detection.webm](https://github.com/user-attachments/assets/eb76ee0a-ef21-400b-b3ab-ead322f93dc9)
+                Demo Video
             </a>
         </strong>.
     </p>
 </div>
-[demo_detection.webm](https://github.com/user-attachments/assets/eb76ee0a-ef21-400b-b3ab-ead322f93dc9)
+
 
 
 ## Introduction
