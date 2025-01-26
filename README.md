@@ -9,9 +9,7 @@
         style="border: 2px solid #000;"
     />
     <p style="text-align: center;">
-        Figure 1: Demonstration of the developed application, Created by author.
-        
-    </p>
+        Figure 1: Demonstration of the developed application, Created by author.        
 </div>
 
 
