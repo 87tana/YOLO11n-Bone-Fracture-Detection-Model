@@ -11,7 +11,7 @@ COPY . /app
 RUN apt-get update && apt-get install ffmpeg libsm6 libxext6  -y
 
 # Install dependencies
-RUN pip install -r requirements.txt
+RUN pip install -r requirements_fastapi.txt
 
 # Expose the FastAPI port
 EXPOSE 8000

@@ -8,7 +8,7 @@ WORKDIR /app
 COPY . /app
 
 # Install dependencies
-RUN pip install -r requirements.txt
+RUN pip install -r requirements_streamlit.txt
 
 # Expose the Streamlit port
 EXPOSE 8501
