@@ -79,7 +79,9 @@ Format: Images (JPEG) and corresponding annotations (YOLO)
 
 ## Methodology
 
-Training and validating a Deep learning model for bone fracture detection in medical images (X-Ray).
+- YOLOv11
+- Transformer attention
+- Seprating classification vs detection to minimize the confilict
 
 ## Results
 
