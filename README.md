@@ -14,6 +14,7 @@
 
 
 [Demo Detection](https://github.com/user-attachments/assets/eb76ee0a-ef21-400b-b3ab-ead322f93dc9)
+[Demo Detection on Azure](https://github.com/user-attachments/assets/b869ea58-0511-46e5-a724-7bb1abb7fc9e)
 
 
 ## Introduction
