@@ -1,0 +1,100 @@
+
+# Resource_Group = fracture-detection-group
+# ACR = fracturedetectionacr
+# ACR_Login_Server = fracturedetectionacr.azurecr.io
+# App_Service_Plan = fracture-detection-plan-eu
+
+# FastAPI_Docker_Name = fracturedetectfastapi
+# FastAPI_Docker_Name_ACR = fracture-detect-fastapi
+# FastAPI_Web_App_Name = fracture-detect-fastapi
+
+# Streamlit_Docker_Name = fracturedetectstreamlit
+# Streamlit_Docker_Name_ACR = fracture-detect-streamlit
+# Streanlit_Web_App_Name = fracture-detect-streamlit
+
+
+
+####### Setup Azure cloud ####################
+
+# Create resource group
+az group create --name fracture-detection-group --location germanywestcentral
+
+# Create ACR
+az acr create --resource-group fracture-detection-group --name fracturedetectionacr --sku Standard
+
+
+# Login to ACR
+az acr login --name fracturedetectionacr
+
+
+##### Prepare FastAPI for cloud ##############
+
+# Build docker image
+docker build --platform linux/amd64 -t fracturedetectfastapi .
+
+# Tag the docker image
+docker tag fracturedetectfastapi fracturedetectionacr.azurecr.io/fracture-detect-fastapi:latest
+
+# Push the tagged image to ACR
+docker push fracturedetectionacr.azurecr.io/fracture-detect-fastapi:latest
+
+
+
+##### Create Azure App Service plan ########
+
+az appservice plan create --location northeurope --name fracture-detection-plan-eu --resource-group fracture-detection-group --sku S1 --is-linux
+
+
+###### Deploy backend on Azure App Service ##############
+
+# Create Azur web app for backend
+az webapp create --resource-group fracture-detection-group --plan fracture-detection-plan-eu --name fracture-detect-fastapi --container-image-name fracturedetectionacr.azurecr.io/fracture-detect-fastapi:latest
+
+# Config web app to use ACR
+az acr update -n fracturedetectionacr --admin-enabled true
+
+# Link the web app to ACR
+az webapp config container set --resource-group fracture-detection-group --name fracture-detect-fastapi --container-registry-url https://fracturedetectionacr.azurecr.io --container-registry-user $(az acr credential show --name fracturedetectionacr --query username --output tsv) --container-registry-password $(az acr credential show --name fracturedetectionacr --query passwords[0].value --output tsv)
+
+# Verify the deployment
+az webapp show --resource-group fracture-detection-group --name fracture-detect-fastapi --query "defaultHostName"
+
+# Enable logging
+az webapp log config --name fracture-detect-fastapi --resource-group fracture-detection-group --docker-container-logging filesystem
+
+# Check the logs (optional)
+az webapp log tail --name fracture-detect-fastapi --resource-group fracture-detection-group
+
+
+
+##### Prepare Streamlit for cloud ##############
+
+# Buidl docker image
+docker build --platform linux/amd64 -t fracturedetectstreamlit .
+
+# Tag the docker image
+docker tag fracturedetectstreamlit fracturedetectionacr.azurecr.io/fracture-detect-streamlit:latest
+
+# Push the tagged image to ACR
+docker push fracturedetectionacr.azurecr.io/fracture-detect-streamlit:latest
+
+
+###### Deploy frontend on Azure App Service ##############
+
+# Create Azur web app for frontend
+az webapp create --resource-group fracture-detection-group --plan fracture-detection-plan-eu --name fracture-detect-streamlit --container-image-name fracturedetectionacr.azurecr.io/fracture-detect-streamlit:latest
+
+# Config web app to use ACR
+az acr update -n fracturedetectionacr --admin-enabled true
+
+# Link the web app to ACR
+az webapp config container set --resource-group fracture-detection-group --name fracture-detect-streamlit --container-registry-url https://fracturedetectionacr.azurecr.io --container-registry-user $(az acr credential show --name fracturedetectionacr --query username --output tsv) --container-registry-password $(az acr credential show --name fracturedetectionacr --query passwords[0].value --output tsv)
+
+# Enable logging
+az webapp log config --name fracture-detect-streamlit --resource-group fracture-detection-group --docker-container-logging filesystem
+
+# Verify the deployment
+az webapp show --resource-group fracture-detection-group --name fracture-detect-streamlit --query "defaultHostName"
+
+
+
