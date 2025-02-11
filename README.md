@@ -12,7 +12,7 @@
         Figure 1: Demonstration of the developed application, Created by author.        
 </div>
 
-[Demo Detection on Azure](https://github.com/user-attachments/assets/b869ea58-0511-46e5-a724-7bb1abb7fc9e)
+[bone_fracture_detection_demo_Azure.webm](https://github.com/user-attachments/assets/008c6e02-b34d-4d57-9cb0-fd478c65cb5b)
 
 
 ## Introduction
