@@ -3,7 +3,7 @@
 
 <div align="center">
     <img 
-        width="600" 
+        width="400" 
         src="/asset/demo_pic.png" 
         alt="Material Bread logo" 
         style="border: 2px solid #000;"
@@ -12,6 +12,8 @@
         Figure 1: Demonstration of the developed application, Created by author.        
 </div>
 
+## Deploy on Azure
+
 [bone_fracture_detection_demo_Azure.webm](https://github.com/user-attachments/assets/008c6e02-b34d-4d57-9cb0-fd478c65cb5b)
 
 
@@ -19,7 +21,7 @@
 
 Bone fracture detection is a challenging task due to the variability in fracture shapes, sizes, and locations. This project uses deep learning-based object detection models to locate and classify fractures in X-ray images, aiding medical professionals in diagnostics and reducing human error.
 
-The project is built using PyTorch, TensorFlow and YOLO11n  and aims to provide a pipeline for training, evaluating, and deploying object detection models in medical imaging.
+The project is built using PyTorch, and YOLO11n  and aims to provide a pipeline for training, evaluating, and deploying object detection models in medical imaging.
 
 ## Data  
 
