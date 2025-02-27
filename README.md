@@ -1,5 +1,4 @@
-# Bone Fraction Detection 
-
+# Deep Learning-Based Bone Fracture Detection in X-Ray Images with Dockerized Web Deployment
 
 <div align="center">
     <img 
