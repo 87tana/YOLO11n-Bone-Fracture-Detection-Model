@@ -2,7 +2,7 @@ train: ../train/images
 val: ../valid/images
 test: ../test/images
 
-nc: 2
+nc: 1
 names: ['negative', 'positive']
 
 roboflow:
