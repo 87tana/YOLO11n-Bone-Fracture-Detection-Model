@@ -77,11 +77,11 @@ Format: Images (JPEG) and corresponding annotations (YOLO)
                    ├── test_annotation2.txt
                    └── ...
 
-## Methodology
+## Experiments
 
 - YOLOv11
-- Transformer attention
-- Seprating classification vs detection to minimize the confilict
+- Exp1: The whole dataset for two classes: “Fracture”, “No-fracture”
+- Exp2: The whole dataset for one classes: “Fracture”
 
 ## Results
 
