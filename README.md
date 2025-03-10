@@ -82,6 +82,13 @@ Format: Images (JPEG) and corresponding annotations (YOLO)
 - YOLOv11
 - Exp1: The whole dataset for two classes: “Fracture”, “No-fracture”
 - Exp2: The whole dataset for one classes: “Fracture”
+- Exp 3: Positive-only subset; one class: “Fracture” (only images with bbx)
 
-## Results
+
+## Perliminary Results
+
+
+- Exp 1 provides a solid baseline with a balanced approach of two classes.
+- Exp 2 shows that focusing on the fracture class can increase precision, though it slightly impacts recall.
+- Exp 3 demonstrates that using a positive-only subset with a lower learning rate leads to the highest precision and a modest recall improvement, with a minor trade-off in strict localization (mAP95).
 
