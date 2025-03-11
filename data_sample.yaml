@@ -1,9 +1,9 @@
-train: ../train/images
-val: ../valid/images
-test: ../test/images
+train: ./sample_data/images
+val: ./sample_data/images
+test: ./sample_data/images
 
-nc: 1
-names: ['Fracture']
+nc: 2
+names: ['No_fracture', 'Fracture']
 
 roboflow:
   workspace: fraction-detection
