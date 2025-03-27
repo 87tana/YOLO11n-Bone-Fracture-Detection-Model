@@ -92,3 +92,11 @@ Format: Images (JPEG) and corresponding annotations (YOLO)
 - Exp 2 shows that focusing on the fracture class can increase precision, though it slightly impacts recall.
 - Exp 3 demonstrates that using a positive-only subset with a lower learning rate leads to the highest precision and a modest recall improvement, with a minor trade-off in strict localization (mAP95).
 
+This work explored fracture detection on X-ray images using YOLOv11. The dataset included bounding box annotations for fractures, with 60% of images showing no fractures. Training for 60 epochs led to convergence around 30 epochs, achieving a validation mAP50 of approximately 0.6 and mAP50-90 of about 0.25. The marginal performance gain with the larger YOLO 11s model suggests that the high variability in image characteristics and fracture types, as well as the imbalance between positive and negative cases, pose significant challenges.
+
+## Conclusion
+
+
+
+
+
