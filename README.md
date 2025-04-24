@@ -79,10 +79,21 @@ Format: Images (JPEG) and corresponding annotations (YOLO)
 
 ## Experiments
 
-- YOLOv11
-- Exp1: The whole dataset for two classes: “Fracture”, “No-fracture”
-- Exp2: The whole dataset for one classes: “Fracture”
-- Exp 3: Positive-only subset; one class: “Fracture” (only images with bbx)
+- All models trained for 80 epochs under the following conditions:
+
+- Full Dataset (2 classes)
+
+- Positive-Only (fracture images only)
+
+- Model Scaling: nano, small, medium, large
+
+- Augmentation Variants: stronger on-the-fly rotations, flips, scaling
+
+- Training Strategies: multi-scale input, adjusted learning rate schedule
+
+- Loss Weight Tuning: varying DFL weight from 1.5 to 2.5
+
+- Configuration files (.yaml) define hyperparameters and augmentation pipelines.
 
 
 ## Perliminary Results
