@@ -1,5 +1,10 @@
 # Deep Learning-Based Bone Fracture Detection in X-Ray Images with Dockerized Web Deployment
 
+<div align="center">
+    <img width="800" src="/asset/YOLO.png" alt="Material Bread logo">
+    <p style="text-align: center;">Figure 2: Sample images with overlaid ground-truth bounding boxes.,Created by author.</p>   
+</div>
+
 This repository implements an end-to-end pipeline for detecting bone fractures in X-ray images using the YOLO11n object detection framework. 
 
 <div align="center">
@@ -24,16 +29,25 @@ Bone fracture detection is a challenging task due to the variability in fracture
 
 The project is built using PyTorch, and YOLO11n  and aims to provide a pipeline for training, evaluating, and deploying object detection models in medical imaging.
 
-## Data  
+## Dataset  
 
-This dataset includes 5,455 annotated X-ray images in YOLO format, divided into training (3,779), validation (835), and test (841) sets. It focuses on binary-class classification ("Fracture" vs. "No Fracture") with varying bounding box sizes and class distribution, requiring further analysis. [Hosted on Roboflow](https://universe.roboflow.com/fracture-uofxm/bone-fracture-detection-ivsy6/dataset/1). 
+The dataset comprises 5,455 public X-ray images, annotated with fracture bounding boxes.
 
-Format: Images (JPEG) and corresponding annotations (YOLO)
+Training: 3,779 images (25% with fractures)
 
-<div align="center">
-    <img width="800" src="/asset/YOLO.png" alt="Material Bread logo">
-    <p style="text-align: center;">Figure 2: Sample images with overlaid ground-truth bounding boxes.,Created by author.</p>   
-</div>
+Validation: 835 images (80% with fractures)
+
+Test: 841 images
+
+Key characteristics:
+
+Severe class imbalance (background vs. fractures)
+
+Offline augmentations (flips, rotations) dominate
+
+Fracture boxes cover <5% of image area, smaller in validation/test
+
+
 
 
 ## Directory Structure
