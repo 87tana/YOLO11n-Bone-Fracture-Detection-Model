@@ -30,6 +30,13 @@ All models trained for 80 epochs under the following conditions:
 
 6. Loss Weight Tuning: varying DFL weight from 1.5 to 2.5
 
+## Results
+
+<div align="center">
+	<img width="800" src="mAP_Results.png" alt="Material Bread logo">
+	<p style="text-align: center;">Figure 2: All models have been trained for 80 epochs. Created by author..</p>   
+</div>
+
 ## Deployment on Azure
 
 [bone_fracture_detection_demo_Azure.webm](https://github.com/user-attachments/assets/008c6e02-b34d-4d57-9cb0-fd478c65cb5b)
