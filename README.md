@@ -33,8 +33,8 @@ All models trained for 80 epochs under the following conditions:
 ## Results
 
 <div align="center">
-	<img width="800" src="mAP_Results.png" alt="Material Bread logo">
-	<p style="text-align: center;">Figure 2: All models have been trained for 80 epochs. Created by author..</p>   
+	<img width="400" src="/asset/mAP_Results.png alt="Material Bread logo">
+	<p style="text-align: center;">Figure 2: All models have been trained for 80 epochs., Created by author.</p>   
 </div>
 
 ## Deployment on Azure
