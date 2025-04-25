@@ -7,7 +7,6 @@ This repository implements an end-to-end pipeline for detecting bone fractures i
 	<p style="text-align: center;">Figure 1: Sample images with overlaid ground-truth bounding boxes.,Created by author.</p>   
 </div>
 
-
 ## Dataset
 
 The dataset comprises 5,455 public X-ray images, annotated with fracture bounding boxes.
@@ -33,7 +32,7 @@ All models trained for 80 epochs under the following conditions:
 ## Results
 
 <div align="center">
-	<img width="400" src="/asset/mAP_Results.png alt="Material Bread logo">
+	<img width="800" src="/asset/mAP_Results.png" alt="Material Bread logo">
 	<p style="text-align: center;">Figure 2: All models have been trained for 80 epochs., Created by author.</p>   
 </div>
 
