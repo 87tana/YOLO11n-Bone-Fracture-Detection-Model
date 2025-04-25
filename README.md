@@ -1,5 +1,7 @@
 # Deep Learning-Based Bone Fracture Detection in X-Ray Images with Dockerized Web Deployment
 
+This repository implements an end-to-end pipeline for detecting bone fractures in X-ray images using the YOLO11n object detection framework. 
+
 <div align="center">
     <img 
         width="400" 
