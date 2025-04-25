@@ -2,7 +2,7 @@
 
 <div align="center">
     <img width="800" src="/asset/YOLO.png" alt="Material Bread logo">
-    <p style="text-align: center;">Figure 2: Sample images with overlaid ground-truth bounding boxes.,Created by author.</p>   
+    <p style="text-align: center;">Figure 1: Sample images with overlaid ground-truth bounding boxes.,Created by author.</p>   
 </div>
 
 This repository implements an end-to-end pipeline for detecting bone fractures in X-ray images using the YOLO11n object detection framework. 
