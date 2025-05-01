@@ -7,6 +7,10 @@ This repository implements an end-to-end pipeline for detecting bone fractures i
 	<p style="text-align: center;">Figure 1: Sample images with overlaid ground-truth bounding boxes.,Created by author.</p>   
 </div>
 
+### Overview
+
+Analyzed bone fracture detection on a highly imbalanced, low-diversity X-ray dataset using YOLOv11 models; identified spatial resolution and bounding box prior information as bottlenecks, and proposed feature map refinements and curriculum training to improve tiny object detection
+
 ### Dataset
 
 The dataset comprises 5,455 public X-ray images, annotated with fracture bounding boxes.
